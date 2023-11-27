@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="tr-TR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kvak's İnşaat  | Projelerimiz</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/x-icon" href="img/favicon.png">
+  </head>
+
+  <body>
+    <!-- Menü Bölümü Başlangıç -->
+    <header>
+      <a href="index.html"><img src="img/logo1.png" width="" height="64"></a>
+      <div class="toggle" onclick="toggleMenu();">
+        <ul class="menu">
+          <li><a href="hakkimizda.html">Hakkımızda</a></li>
+          <li><a href="foto_galeri.html">Fotoğraf Galerisi</a></li>
+          <li><a href="projeler.html">Projeler</a></li>
+          <li><a href="memnuniyet.html">Memnuniyet</a></li>
+          <li><a href="iletisim.html">İletişim</a></li>
+        </ul>
+      </div>
+    </header>
+    <!-- Menü Bölümü Bitiş -->
+    
+    <section class="prj">
+      <div class="heading">
+        <h2>Projelerimiz</h2>
+        <p>Daha önce inşaatı tamamlanan projelerin resimlerini ve detaylarına ulaşabilirsiniz.</p>
+      </div>
+      <div class="proje">
+        <div class="projefoto">
+          <a href="modern-villalar-toplulugu.html"><img src="img/proje1.png" alt="Modern Villalar Topluluğu" /></a>
+        </div>
+        <div class="projeisim">
+         <a href="modern-villalar-toplulugu.html"> <h3>Modern Villalar Topluluğu</h3></a>
+        </div>
+      </div>
+      <div class="proje">
+        <div class="projefoto">
+          <a href="modern-cok-katli-apartman.html"><img src="img/proje2.png" alt="Modern Çok Katlı Apartman" /></a>
+        </div>
+        <div class="projeisim">
+         <a href="modern-cok-katli-apartman.html"> <h3>Modern Çok Katlı Apartman</h3></a>
+        </div>
+      </div>
+      <div class="proje">
+        <div class="projefoto">
+          <a href="sehir-stadyumu.html"><img src="img/proje4.png" alt="Şehir Stadyumu ve Spor Kompleksi" /></a>
+        </div>
+        <div class="projeisim">
+         <a href="sehir-stadyumu.html"> <h3>Şehir Stadyumu ve Spor Kompleksi</h3></a>
+        </div>
+      </div>
+      <div class="proje">
+        <div class="projefoto">
+          <a href="asya-is-merkezi.html"><img src="img/proje3.png" alt="Asya İş Merkezi" /></a>
+        </div>
+        <div class="projeisim">
+         <a href="asya-is-merkezi.html"> <h3>Asya İş Merkezi</h3></a>
+        </div>
+      </div>
+      
+
+    </section>
+
+    <!-- Footer Bölümü Başlangıcı -->
+
+    <div class="footer">
+      <div class="footer-content">
+        <div class="footer-links">
+          <ul>
+            <li><a href="gizlilik.html">Gizlilik Politikası</a></li>
+            <li><a href="sartlar_ve_kosullar.html">Şartlar ve Koşullar</a></li>
+            <li><a href="sss.html">SSS</a></li>
+            <li><a href="vizyon_ve_misyonumuz.html">Vizyon ve Misyonumuz</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-line"></div>
+      <div class="copyright">&copy; 2023 Ömer Kavak. Tüm Hakları Saklıdır.</div>
+    </div>
+
+    <!-- Footer Bölümü Bitişi -->
+
+    <script>
+      function toggleMenu(){
+        var menuToggle = document.querySelector('.toggle');
+        var menu = document.querySelector('.menu');
+        menuToggle.classList.toggle('active');
+        menu.classList.toggle('active');
+      }
+    </script>
+
+  </body>
+</html>

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="tr-TR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kvak's İnşaat | Fotoğraf Galerisi</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/x-icon" href="img/favicon.png">
+  </head>
+
+  <body>
+    <!-- Menü Bölümü Başlangıç -->
+    <header>
+      <a href="index.html"><img src="img/logo1.png" width="" height="64"></a>
+      <div class="toggle" onclick="toggleMenu();">
+        <ul class="menu">
+          <li><a href="hakkimizda.html">Hakkımızda</a></li>
+          <li><a href="foto_galeri.html">Fotoğraf Galerisi</a></li>
+          <li><a href="projeler.html">Projeler</a></li>
+          <li><a href="memnuniyet.html">Memnuniyet</a></li>
+          <li><a href="iletisim.html">İletişim</a></li>
+        </ul>
+      </div>
+    </header>
+    <!-- Menü Bölümü Bitiş -->
+
+
+    <section class="fotog">
+      <div class="heading">
+        <h2>Fotoğraf Galerisi</h2>
+        <p>Şirketimizin, çalışanlarımızın ve porjelerimizn sergilendiği galerimize hoş geldiniz!</p>
+      </div>
+      <div class="content">
+        <div class="fotoBox">
+          <img src="img/fg1.png" alt="#">
+        </div>
+        <div class="fotoBox">
+          <img src="img/fg2.png" alt="#">
+        </div>
+        <div class="fotoBox">
+          <img src="img/fg5.png" alt="#">
+        </div>
+        <div class="fotoBox">
+          <img src="img/fg4.png" alt="#">
+        </div>
+        <div class="fotoBox">
+          <img src="img/fg3.png" alt="#">
+        </div>
+        <div class="fotoBox">
+          <img src="img/fg6.png" alt="#">
+        </div>
+        <div class="fotoBox">
+          <img src="img/fg7.png" alt="#">
+        </div>
+        <div class="fotoBox">
+          <img src="img/fg8.png" alt="#">
+        </div>
+        <div class="fotoBox">
+          <img src="img/fg9.png" alt="#">
+        </div>
+        <div class="fotoBox">
+          <img src="img/fg10.png" alt="#">
+        </div>
+        <div class="fotoBox">
+          <img src="img/fg11.png" alt="#">
+        </div>
+        <div class="fotoBox">
+          <img src="img/fg12.png" alt="#">
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Footer Bölümü Başlangıcı -->
+
+    <div class="footer">
+      <div class="footer-content">
+        <div class="footer-links">
+          <ul>
+            <li><a href="gizlilik.html">Gizlilik Politikası</a></li>
+            <li><a href="sartlar_ve_kosullar.html">Şartlar ve Koşullar</a></li>
+            <li><a href="sss.html">SSS</a></li>
+            <li><a href="vizyon_ve_misyonumuz.html">Vizyon ve Misyonumuz</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-line"></div>
+      <div class="copyright">&copy; 2023 Ömer Kavak. Tüm Hakları Saklıdır.</div>
+    </div>
+
+    <!-- Footer Bölümü Bitişi -->
+
+    <script>
+      function toggleMenu(){
+        var menuToggle = document.querySelector('.toggle');
+        var menu = document.querySelector('.menu');
+        menuToggle.classList.toggle('active');
+        menu.classList.toggle('active');
+      }
+    </script>
+
+  </body>
+</html>

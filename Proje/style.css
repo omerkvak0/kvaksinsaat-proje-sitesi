@@ -1,0 +1,792 @@
+/* Ana Sayfa Kodları */
+@import url("https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter Tight", sans-serif;
+}
+
+input[type=text], input[type=tel], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #1e1f1e;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #1e1f1e;
+}
+
+.container {
+  border-radius: 5px;
+  padding: 0 200px 0 200px;
+  font-size: 16px;
+}
+
+.container form{
+  font-size: 20px;
+}
+
+.container select{
+  font-size: 17px;
+}
+
+.talep .heading {
+  position: relative;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.talep .heading h2 {
+  font-size: 2.5em;
+}
+
+.talep .heading p {
+  font-size: 1.5em;
+}
+
+/* .talep{
+  width: 80%;
+} */
+
+section {
+  padding: 100px;
+}
+
+.banner {
+  position: relative;
+  min-height: 100vh;
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.6),
+      rgba(255, 255, 255, 0.6)
+    ),
+    url(img/bg.jpg);
+
+  background-size: cover;
+  background-position: right;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.banner h2 {
+  font-size: 4em;
+  color: #141414;
+  font-weight: 700;
+  line-height: 1.5em;
+  letter-spacing: -1px;
+}
+
+.banner h3 {
+  font-size: 22px;
+  color: #222121;
+  font-weight: 400;
+}
+
+.btn {
+  border-radius: 50px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #1d1d1d;
+  position: relative;
+  background: #ffffff00;
+  color: #1d1d1d;
+  display: inline-block;
+  margin-top: 20px;
+  padding: 25px 30px;
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: 800;
+}
+
+.btn:hover {
+  border-color: #000;
+  color: #000;
+  transition: 0.4s;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 12%;
+  background-color: #fff;
+  padding: 30px 20px 30px 20px;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo img{
+  position: relative;
+  clear: both;
+}
+
+header .logo {
+  position: relative;
+  color: #000;
+  font-size: 23px;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+header ul {
+  position: relative;
+  display: flex;
+}
+
+header ul li {
+  position: relative;
+  list-style: none;
+}
+
+header ul li a {
+  position: relative;
+  display: inline-block;
+  margin: 0 20px;
+  color: #000;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+header ul li a:hover {
+  color: #1d1d1d;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contentBox p {
+  font-size: 23px;
+  padding-right: 110px;
+}
+
+.contentBox h3 {
+  padding-top: 300px;
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+.ins1 {
+  min-width: 50%;
+}
+
+.ins1 img {
+  max-width: 100%;
+  border-radius: 35px;
+}
+.content2 {
+  padding-top: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contentBox2 p {
+  font-size: 23px;
+  padding-left: 80px;
+}
+
+.contentBox2 h3 {
+  padding-left: 80px;
+  padding-top: 300px;
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+.ins2 {
+  min-width: 50%;
+}
+
+.ins2 img {
+  max-width: 100%;
+  border-radius: 35px;
+}
+.content3 {
+  padding-top: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contentBox3 p {
+  font-size: 23px;
+  padding-right: 110px;
+}
+
+.contentBox3 h3 {
+  padding-top: 300px;
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+.ins3 {
+  min-width: 50%;
+}
+
+.ins3 img {
+  max-width: 100%;
+  border-radius: 35px;
+}
+
+.content4 {
+  padding-top: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contentBox4 p {
+  font-size: 23px;
+  padding-left: 80px;
+}
+
+.contentBox4 h3 {
+  padding-left: 80px;
+  padding-top: 250px;
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+.ins4 {
+  min-width: 50%;
+}
+
+.ins4 img {
+  max-width: 100%;
+  border-radius: 35px;
+}
+
+.btn2 {
+  border-radius: 50px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #1d1d1d;
+  position: relative;
+  background: #ffffff00;
+  color: #1d1d1d;
+  display: inline-block;
+  margin-left: 80px;
+  margin-top: 60px;
+  padding: 25px 30px;
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: 800;
+}
+
+.btn2:hover {
+  border-color: #000;
+  color: #000;
+  transition: 0.4s;
+}
+
+.yorum .heading {
+  position: relative;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.yorum .heading h2 {
+  font-size: 2.5em;
+}
+
+.yorum .heading p {
+  font-size: 1.5em;
+}
+
+.yorum .content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.yorum .content .yorumBox {
+  min-width: 50%;
+  padding: 60px 80px;
+  margin: 20px;
+  border-radius: 20px;
+  background-color: #dedede;
+}
+
+.yorum .content .yorumBox p {
+  font-style: italic;
+  font-size: 17px;
+  font-weight: 100;
+}
+
+.yorum .content .yorumBox h3 {
+  margin-top: 30px;
+  text-align: end;
+}
+
+.fotog .heading {
+  position: relative;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.fotog .heading h2 {
+  font-size: 2.5em;
+}
+
+.fotog .heading p {
+  font-size: 1.5em;
+}
+
+.fotog .content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.fotog .content .fotoBox {
+  width: 50%;
+  padding: 20px;
+}
+
+.fotog .content .fotoBox img {
+  border-radius: 20px;
+}
+
+.projefoto {
+  position: relative;
+  text-align: center;
+}
+
+.projefoto img {
+  border-radius: 20px;
+}
+
+.proje .projeisim {
+  text-align: center;
+  font-size: 1.5em;
+  margin: 10px 0 50px 0;
+}
+
+.proje .projeisim a {
+  text-decoration: none;
+  color: #000;
+}
+
+.proje .projeisim a:hover {
+  text-decoration: underline;
+  color: #1b1b1b;
+}
+
+.prj .heading {
+  position: relative;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.prj .heading h2 {
+  font-size: 2.5em;
+}
+
+.prj .heading p {
+  font-size: 1.5em;
+}
+
+.cntc{
+  display: flex;
+}
+
+.cntc .harita{
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  clear: both;
+}
+
+.cntc .iletisim{
+  position: relative;
+  width: 50%;
+}
+
+.contact .heading {
+  position: relative;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.contact .heading h2 {
+  font-size: 2.5em;
+}
+
+.contact .heading p {
+  font-size: 1.5em;
+}
+
+.cntc .iletisim h3{
+  font-size: 2.5em;
+  padding-top: 80px;
+  padding-left: 130px;
+}
+
+
+.cntc .iletisim p{
+  font-size: 1.5em;
+  padding-left: 130px;
+}
+
+/* Ana Sayfa Kodları*/
+
+#hk_bg {
+  margin-top: 20px;
+  width: 70%;
+  border-radius: 20px;
+}
+
+.hk h2 {
+  margin-top: 25px;
+  font-size: 4em;
+  text-align: center;
+}
+
+.hk p {
+  padding-top: 80px;
+  font-size: 23px;
+  font-weight: 400;
+}
+
+.footer {
+  background-color: #1d1d1d;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+.footer-content {
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  display: inline;
+  margin: 0 10px;
+  font-size: 20px;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer-links a:hover {
+  color: #555;
+}
+
+.footer-line {
+  border-top: 1px solid #555;
+  margin: 20px 0;
+}
+
+.copyright {
+  font-size: 15px;
+}
+
+/* Tablet için gerekli responsive kodları. */
+@media (max-width: 991px) {
+
+  .cntc .iletisim h3{
+    padding-left: 50px;
+  }
+
+  .cntc .iletisim p{
+    padding-left: 50px;
+  }
+
+  .container {
+    border-radius: 5px;
+    padding: 0px;
+  }
+
+  .container form{
+    font-size: 16px;
+  }
+  
+  .container select{
+    font-size: 13px;
+  }
+
+  .talep .heading h2 {
+    font-size: 2em;
+  }
+  
+  .talep .heading p {
+    font-size: 1em;
+  }
+
+  header {
+    padding: 35px 40px;
+  }
+  header .logo {
+    font-size: 30px;
+  }
+
+  .menu {
+    position: fixed;
+    top: 73px;
+    left: -100%;
+    display: block;
+    padding: 100px 50px;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    background: #fff;
+    transition: 0.5ms;
+    z-index: 999;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+  }
+
+  .menu.active {
+    left: 0;
+  }
+
+  header ul li a {
+    color: #111;
+    font-size: 24px;
+    margin: 5px;
+  }
+
+  .toggle {
+    width: 30px;
+    height: 30px;
+    background: url(img/menu1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 30px;
+    cursor: pointer;
+  }
+
+  .toggle.active {
+    background: url(img/menu2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 30px;
+    cursor: pointer;
+  }
+
+  section{
+    padding: 100px;
+  }
+
+  .banner h2 {
+    font-size: 3em;
+  }
+
+  .banner h3 {
+    font-size: 19px;
+  }
+
+  .contentBox p {
+    font-size: 19px;
+    padding-right: 110px;
+  }
+
+  .contentBox h3 {
+    padding-top: 150px;
+    font-size: 2em;
+  }
+
+  /*  */
+
+  .contentBox2 p {
+    font-size: 19px;
+    padding-right: 10px;
+  }
+
+  .contentBox2 h3 {
+    padding-top: 150px;
+    font-size: 2em;
+  }
+
+  /*  */
+
+  .contentBox3 p {
+    font-size: 19px;
+    padding-right: 110px;
+  }
+
+  .contentBox3 h3 {
+    padding-top: 150px;
+    font-size: 2em;
+  }
+
+  /*  */
+
+  .contentBox4 p {
+    font-size: 19px;
+    padding-right: 10px;
+  }
+
+  .contentBox4 h3 {
+    padding-top: 120px;
+    font-size: 2em;
+  }
+
+  .footer-links li {
+    font-size: 17px;
+  }
+
+  .copyright {
+    font-size: 15px;
+  }
+
+  .btn {
+    padding: 20px 25px;
+    font-size: 18px;
+    font-weight: 800;
+  }
+
+  .btn2 {
+    padding: 20px 25px;
+    font-size: 18px;
+    font-weight: 800;
+  }
+
+  .yorum .content .yorumBox {
+    padding: 60px 60px;
+  }
+
+  .fotog .content{
+    display: flex;
+  }
+
+  .fotog .content .fotoBox{
+    display: flex;
+    width: 100%;
+    padding: 10px;
+  }
+
+  .fotog .content .fotoBox img{
+    display: flex;
+    width: 100%;
+  }
+
+}
+
+/* Telefon için gerekli responsive tarasım yarım kalmıştır. */
+/* @media (min-width: 320px) and (max-width: 480px){
+  header {
+    padding: 35px 40px;
+  }
+  header .logo {
+    font-size: 30px;
+  }
+
+  .menu {
+    position: fixed;
+    top: 73px;
+    left: -100%;
+    display: block;
+    padding: 100px 50px;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    background: #fff;
+    transition: 0.5ms;
+    z-index: 999;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+  }
+
+  .menu.active {
+    left: 0;
+  }
+
+  header ul li a {
+    color: #111;
+    font-size: 24px;
+    margin: 5px;
+  }
+
+  .toggle {
+    width: 30px;
+    height: 30px;
+    background: url(img/menu1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 30px;
+    cursor: pointer;
+  }
+
+  .toggle.active {
+    background: url(img/menu2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 30px;
+    cursor: pointer;
+  }
+
+  .banner h2 {
+    font-size: 2em;
+  }
+
+  .banner h3 {
+    font-size: 15px;
+  }
+
+  .article{
+    margin: 0 -00px 0 -100px;
+  }
+
+  .content {
+    width: 100%;
+
+  }
+
+  .contentBox .ins1{
+    display: flex;
+  }
+  
+  .contentBox p {
+    display:flex-box;
+    font-size: 13px;
+    padding: 0;
+
+  }
+  
+  .contentBox h3 {
+    padding-top: 0px;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .ins1 {
+    display: inline;
+    width: 100%;
+  }
+  
+  .ins1 img {
+    width: 90%;
+    border-radius: 35px;
+
+  }
+  
+
+} */

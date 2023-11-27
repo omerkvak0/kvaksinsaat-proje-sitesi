@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="tr-TR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kvak's İnşaat  | İletişim</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/x-icon" href="img/favicon.png">
+  </head>
+
+  <body>
+    <!-- Menü Bölümü Başlangıç -->
+    <header>
+      <a href="index.html"><img src="img/logo1.png" width="" height="64"></a>
+      <div class="toggle" onclick="toggleMenu();">
+        <ul class="menu">
+          <li><a href="hakkimizda.html">Hakkımızda</a></li>
+          <li><a href="foto_galeri.html">Fotoğraf Galerisi</a></li>
+          <li><a href="projeler.html">Projeler</a></li>
+          <li><a href="memnuniyet.html">Memnuniyet</a></li>
+          <li><a href="iletisim.html">İletişim</a></li>
+        </ul>
+      </div>
+    </header>
+    <!-- Menü Bölümü Bitiş -->
+    
+    <section class="contact">
+      <div class="heading">
+        <h2>İletişim</h2>
+        <p>Aşağıdaki iletişim bilgilerimizle bize ulaşabilir, randevu alabilir veya soru sorabilirsiniz.</p>
+      </div>
+      <div class="cntc">
+      <div class="iletisim">
+        <h3>Telefon</h3>
+        <p>+90 000 000 00 00</p>
+        <h3>E-Mail</h3>
+        <p>kvaksinsaat@ornek.com</p>
+      </div>
+      <div class="harita"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12600.677558292533!2d27.831978855419912!3d37.8563268!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14b92b882e9ac939%3A0xc27f9ccad22e2222!2sAyd%C4%B1n%20Meslek%20Y%C3%BCksekokulu%20(AYDIN%20MYO%20-%20AYMES)!5e0!3m2!1str!2str!4v1701024638840!5m2!1str!2str" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+    </div>
+    </section>
+
+    <!-- Footer Bölümü Başlangıcı -->
+
+    <div class="footer">
+      <div class="footer-content">
+        <div class="footer-links">
+          <ul>
+            <li><a href="gizlilik.html">Gizlilik Politikası</a></li>
+            <li><a href="sartlar_ve_kosullar.html">Şartlar ve Koşullar</a></li>
+            <li><a href="sss.html">SSS</a></li>
+            <li><a href="vizyon_ve_misyonumuz.html">Vizyon ve Misyonumuz</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-line"></div>
+      <div class="copyright">&copy; 2023 Ömer Kavak. Tüm Hakları Saklıdır.</div>
+    </div>
+
+    <!-- Footer Bölümü Bitişi -->
+
+    <script>
+      function toggleMenu(){
+        var menuToggle = document.querySelector('.toggle');
+        var menu = document.querySelector('.menu');
+        menuToggle.classList.toggle('active');
+        menu.classList.toggle('active');
+      }
+    </script>
+
+  </body>
+</html>

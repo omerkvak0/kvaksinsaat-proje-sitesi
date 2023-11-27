@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="tr-TR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kvak's İnşaat  | Talep Formu</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/x-icon" href="img/favicon.png">
+  </head>
+
+  <body>
+    <!-- Menü Bölümü Başlangıç -->
+    <header>
+      <a href="index.html"><img src="img/logo1.png" width="" height="64"></a>
+      <div class="toggle" onclick="toggleMenu();">
+        <ul class="menu">
+          <li><a href="hakkimizda.html">Hakkımızda</a></li>
+          <li><a href="foto_galeri.html">Fotoğraf Galerisi</a></li>
+          <li><a href="projeler.html">Projeler</a></li>
+          <li><a href="memnuniyet.html">Memnuniyet</a></li>
+          <li><a href="iletisim.html">İletişim</a></li>
+        </ul>
+      </div>
+    </header>
+    <!-- Menü Bölümü Bitiş -->
+    <section class="talep">
+      <div class="heading">
+        <h2>Talep Formu</h2>
+        <p>Aşağıdaki formu doldurarak istediğiniz talebi oluşturabilirsiniz. En kısa sürede tekrar size ulaşılacaktır.</p>
+      </div>
+    <div class="container">
+      <form action="">
+        <label for="fname">Adınız ve Soyadınız</label>
+        <input type="text" id="name" name="name" required >
+    
+        <label for="lname">Telefon Numaranız</label>
+        <input type="tel" id="phone" name="phone" required>
+    
+        <label for="country">Yapmak İstediğiniz İşlem?</label>
+        <select id="islem" name="islem" required>
+          <option value="seciniz">Seçiniz</option>
+          <option value="proje">Proje Sunmak İstiyorum</option>
+          <option value="fiyat">Fiyat Talebi İstiyorum</option>
+          <option value="randevu">Randevu Almak İstiyorum</option>
+          <option value="soru">Soru Sormak İstiyorum</option>
+        </select>
+    
+        <label for="subject">Mesajınız Nedir?</label>
+        <textarea id="mesaj" name="mesaj" style="height:200px"></textarea>
+    
+        <input type="submit" value="Gönder">
+      </form>
+    </div>
+  </section>
+    <!-- Footer Bölümü Başlangıcı -->
+
+    <div class="footer">
+      <div class="footer-content">
+        <div class="footer-links">
+          <ul>
+            <li><a href="gizlilik.html">Gizlilik Politikası</a></li>
+            <li><a href="sartlar_ve_kosullar.html">Şartlar ve Koşullar</a></li>
+            <li><a href="sss.html">SSS</a></li>
+            <li><a href="vizyon_ve_misyonumuz.html">Vizyon ve Misyonumuz</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-line"></div>
+      <div class="copyright">&copy; 2023 Ömer Kavak. Tüm Hakları Saklıdır.</div>
+    </div>
+
+    <!-- Footer Bölümü Bitişi -->
+
+    <script>
+      function toggleMenu(){
+        var menuToggle = document.querySelector('.toggle');
+        var menu = document.querySelector('.menu');
+        menuToggle.classList.toggle('active');
+        menu.classList.toggle('active');
+      }
+    </script>
+
+  </body>
+</html>

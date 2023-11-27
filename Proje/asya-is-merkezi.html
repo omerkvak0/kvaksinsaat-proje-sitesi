@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="tr-TR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kvak's İnşaat | Asya İş Merkezi</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/x-icon" href="img/favicon.png" />
+  </head>
+
+  <body>
+    <!-- Menü Bölümü Başlangıç -->
+    <header>
+      <a href="index.html"><img src="img/logo1.png" width="" height="64"></a>
+      <div class="toggle" onclick="toggleMenu();">
+        <ul class="menu">
+          <li><a href="hakkimizda.html">Hakkımızda</a></li>
+          <li><a href="foto_galeri.html">Fotoğraf Galerisi</a></li>
+          <li><a href="projeler.html">Projeler</a></li>
+          <li><a href="memnuniyet.html">Memnuniyet</a></li>
+          <li><a href="iletisim.html">İletişim</a></li>
+        </ul>
+      </div>
+    </header>
+    <!-- Menü Bölümü Bitiş -->
+    <section class="hk">
+      <img
+        src="img/proje3.png"
+        alt="Asya İş Merkezi"
+        id="hk_bg"
+        style="display: block; margin: auto"
+      />
+      <h2>Asya İş Merkezi</h2>
+      <p>
+        <b>İnşaat Alanı:</b> 5.000 m² <br /><br />
+
+        Modern İş Merkezi, şehir merkezindeki iş faaliyetlerini kolaylaştırmak
+        ve verimliliği artırmak amacıyla inşa edilecek prestijli bir iş
+        merkezidir. <br /><br />
+
+        <b>-</b> Toplamda 10 katlı bir iş merkezi inşa edilecektir. Bu merkez,
+        ofisler, konferans salonları, toplantı odaları ve lobiler içeriyor.
+        <br />
+
+        <b>-</b> İş merkezinde, farklı büyüklüklerde ve düzenlemelerde ofisler
+        bulunacaktır. Her ofis, modern mobilyalar, yüksek hızlı internet erişimi
+        ve güvenlik sistemleri ile donatılmıştır. <br />
+
+        <b>-</b> İş merkezi, büyük ve küçük konferans salonları ile toplantı
+        odalarını içerecektir. Bu alanlar, iş toplantıları ve etkinlikler için
+        idealdir. <br />
+
+        <b>-</b> İş merkezi içinde bir restoran ve kafe hizmet verecektir,
+        böylece çalışanlar ve ziyaretçiler için yemek seçenekleri sunuluyor.
+        <br />
+
+        <b>-</b> Güvenlik, yüksek çözünürlüklü güvenlik kameraları, kartlı giriş
+        sistemleri ve güvenlik personeli tarafından sağlanıyor. <br />
+
+        <b>-</b> İş merkezi, enerji verimliliği ve çevre dostu binalar için en
+        son teknolojiyi kullanarak tasarlanacaktır. Geri dönüşüm ve atık azaltma
+        stratejileri uygulanmaktır.
+      </p>
+    </section>
+
+    <!-- Footer Bölümü Başlangıcı -->
+
+    <div class="footer">
+      <div class="footer-content">
+        <div class="footer-links">
+          <ul>
+            <li><a href="gizlilik.html">Gizlilik Politikası</a></li>
+            <li><a href="sartlar_ve_kosullar.html">Şartlar ve Koşullar</a></li>
+            <li><a href="sss.html">SSS</a></li>
+            <li>
+              <a href="vizyon_ve_misyonumuz.html">Vizyon ve Misyonumuz</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-line"></div>
+      <div class="copyright">&copy; 2023 Ömer Kavak. Tüm Hakları Saklıdır.</div>
+    </div>
+
+    <!-- Footer Bölümü Bitişi -->
+
+    <script>
+      function toggleMenu() {
+        var menuToggle = document.querySelector(".toggle");
+        var menu = document.querySelector(".menu");
+        menuToggle.classList.toggle("active");
+        menu.classList.toggle("active");
+      }
+    </script>
+  </body>
+</html>

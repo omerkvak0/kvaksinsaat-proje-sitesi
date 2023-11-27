@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="tr-TR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kvak's İnşaat | Şehir Stadyumu</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/x-icon" href="img/favicon.png" />
+  </head>
+
+  <body>
+    <!-- Menü Bölümü Başlangıç -->
+    <header>
+      <a href="index.html"><img src="img/logo1.png" width="" height="64"></a>
+      <div class="toggle" onclick="toggleMenu();">
+        <ul class="menu">
+          <li><a href="hakkimizda.html">Hakkımızda</a></li>
+          <li><a href="foto_galeri.html">Fotoğraf Galerisi</a></li>
+          <li><a href="projeler.html">Projeler</a></li>
+          <li><a href="memnuniyet.html">Memnuniyet</a></li>
+          <li><a href="iletisim.html">İletişim</a></li>
+        </ul>
+      </div>
+    </header>
+    <!-- Menü Bölümü Bitiş -->
+    <section class="hk">
+      <img
+        src="img/proje4.png"
+        alt="Şehir Stadyumu"
+        id="hk_bg"
+        style="display: block; margin: auto"
+      />
+      <h2>Şehir Stadyumu</h2>
+      <p>
+        <b>İnşaat Alanı:</b> 12.000 m² <br /><br />
+
+        Projenin merkezinde, kapasitesi 30.000 kişiye kadar olan bir çok amaçlı
+        stadyum bulunmaktadır. Stadyum, futbol maçları, konserler ve diğer spor
+        etkinlikleri için kullanılabilecek şekilde tasarlanmıştır. <br /><br />
+
+        <b>-</b> Stadyumun yanı sıra, sporcuların antrenman yapabileceği modern
+        spor salonları, fitness merkezleri ve yüzme havuzları da bulunuyor.
+        <br />
+
+        <b>-</b> Gençlerin sporla tanışmalarını teşvik etmek amacıyla çocuk ve
+        gençlik spor okulları projeye dahil edilmiştir. <br />
+
+        <b>-</b> Stadyum çevresinde, maç günlerinde ve etkinlikler sırasında
+        ziyaretçilere hizmet verebilecek restoranlar, kafeler ve spor giyim
+        mağazaları vardır. <br />
+
+        <b>-</b> Proje, engelliler için erişilebilirlik önlemleri içerecektir,
+        böylece herkes spor etkinliklerine katılabilir. <br />
+
+        <b>-</b> Spor kompleksi, enerji verimliliği, atık yönetimi ve yeşil
+        alanlar gibi çevresel düşünceyi yansıtan tasarım ve uygulamalar
+        içeriyor. <br />
+      </p>
+    </section>
+
+    <!-- Footer Bölümü Başlangıcı -->
+
+    <div class="footer">
+      <div class="footer-content">
+        <div class="footer-links">
+          <ul>
+            <li><a href="gizlilik.html">Gizlilik Politikası</a></li>
+            <li><a href="sartlar_ve_kosullar.html">Şartlar ve Koşullar</a></li>
+            <li><a href="sss.html">SSS</a></li>
+            <li>
+              <a href="vizyon_ve_misyonumuz.html">Vizyon ve Misyonumuz</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-line"></div>
+      <div class="copyright">&copy; 2023 Ömer Kavak. Tüm Hakları Saklıdır.</div>
+    </div>
+
+    <!-- Footer Bölümü Bitişi -->
+
+    <script>
+      function toggleMenu() {
+        var menuToggle = document.querySelector(".toggle");
+        var menu = document.querySelector(".menu");
+        menuToggle.classList.toggle("active");
+        menu.classList.toggle("active");
+      }
+    </script>
+  </body>
+</html>

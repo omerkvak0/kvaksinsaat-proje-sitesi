@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="tr-TR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kvak's İnşaat</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/x-icon" href="img/favicon.png">
+  </head>
+
+  <body>
+    <!-- Menü Bölümü Başlangıç -->
+    <header>
+      <a href="index.html"><img src="img/logo1.png" width="" height="64"></a>
+      <!-- <a href="index.html" class="logo">Kvak's İnşaat</a> -->
+      <div class="toggle" onclick="toggleMenu();">
+        <ul class="menu">
+          <li><a href="hakkimizda.html">Hakkımızda</a></li>
+          <li><a href="foto_galeri.html">Fotoğraf Galerisi</a></li>
+          <li><a href="projeler.html">Projeler</a></li>
+          <li><a href="memnuniyet.html">Memnuniyet</a></li>
+          <li><a href="iletisim.html">İletişim</a></li>
+        </ul>
+      </div>
+    </header>
+    <!-- Menü Bölümü Bitiş -->
+
+    <!-- Banner Bölümü Başlangıcı -->
+    <section class="banner">
+      <div class="textBox">
+        <h2>Hayalinize Ulaşmanın<br /><span>Vakti!</span></h2>
+        <h3>
+          Daha önce yaptığımız projeler arasında seçim yapabilir veya<br />sıfırdan
+          bir tasarımla ev, ofis sahibi olabilirsiniz.
+        </h3>
+        <a href="projeler.html" class="btn">Projelerimiz</a>
+      </div>
+    </section>
+    <!-- Banner Bölümü Bitiş -->
+
+    <!-- Content Başlangıcı -->
+    <section class="article">
+      <div class="content">
+        <div class="contentBox ins1">
+          <h3>Kısaca Biz</h3>
+          <p>
+            2023 yılında kurulmuş olup inşaat sektöründe çağ açmak için uğraşan
+            bir şirketiz. Vereceğimiz hizmette sınızr tanımamakla beraber
+            projelerimize de güveniyoruz.
+          </p>
+        </div>
+        <div class="ins1">
+          <img src="img/kisaca_biz.jpeg" alt="Özgünlük ve Yaratıcılık" />
+        </div>
+      </div>
+      <div class="content2">
+        <div class="ins2">
+          <img src="img/talepleriniz.jpeg" alt="Talepleriniz" />
+        </div>
+        <div class="contentBox2 ins2">
+          <h3>Özgünlük</h3>
+          <p>
+            Yaptığımız tüm işler ve projeler tasarım ekibimiz tarafından özgün
+            ve yaratıcığını konuşturarak yapılmış olup tüm tasarım haklarımız
+            patentli bir şekilde bize aittir.
+          </p>
+        </div>
+      </div>
+      <div class="content3">
+        <div class="contentBox3 ins3">
+          <h3>Talepleriniz</h3>
+          <p>
+            Bize ulaştırdığınız talepleriniz ilk önce yönetim ekibimiz
+            tarafından incelenir daha sonra tasarım ekibine iletilerek
+            istediğinizden daha iyi bir projeyi sizlere iletmiş oluruz.
+          </p>
+        </div>
+        <div class="ins3">
+          <img
+            src="img/ozgunluk_ve_yaraticilik.jpeg"
+            alt="Özgünlük ve Yaratıcılık"
+          />
+        </div>
+      </div>
+      <div class="content4">
+        <div class="ins4">
+          <img src="img/talepleriniz.jpeg" alt="Talepleriniz" />
+        </div>
+        <div class="contentBox4 ins4">
+          <h3>Talep Formu</h3>
+          <p>
+            Şirketimiz tarafından yapılmasını istediğiniz projelerinizi, fikirlerinizi alttaki form bağlantısına giderek bize ulaştırabilirsiniz.
+          </p>
+          <a href="talep_formu.html" class="btn2">Talep Formu</a>
+        </div>
+      </div>
+    </section>
+    <!-- Content Bitişi -->
+
+
+  <!-- Footer Bölümü Başlangıcı -->
+
+    <div class="footer">
+      <div class="footer-content">
+          <div class="footer-links">
+              <ul>
+                  <li><a href="gizlilik.html">Gizlilik Politikası</a></li>
+                  <li><a href="sartlar_ve_kosullar.html">Şartlar ve Koşullar</a></li>
+                  <li><a href="sss.html">SSS</a></li>
+                  <li><a href="vizyon_ve_misyonumuz.html">Vizyon ve Misyonumuz</a></li>
+              </ul>
+          </div>
+      </div>
+      <div class="footer-line"></div>
+      <div class="copyright">
+          &copy; 2023 Ömer Kavak. Tüm Hakları Saklıdır.
+      </div>
+  </div>
+  
+  <!-- Footer Bölümü Bitişi -->
+    
+<script>
+  function toggleMenu(){
+    var menuToggle = document.querySelector('.toggle');
+    var menu = document.querySelector('.menu');
+    menuToggle.classList.toggle('active');
+    menu.classList.toggle('active');
+  }
+</script>
+
+  </body>
+</html>

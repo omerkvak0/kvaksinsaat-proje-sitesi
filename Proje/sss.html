@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="tr-TR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kvak's İnşaat  | Hakkımızda</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/x-icon" href="img/favicon.png">
+  </head>
+
+  <body>
+    <!-- Menü Bölümü Başlangıç -->
+    <header>
+      <a href="index.html"><img src="img/logo1.png" width="" height="64"></a>
+      <div class="toggle" onclick="toggleMenu();">
+        <ul class="menu">
+          <li><a href="hakkimizda.html">Hakkımızda</a></li>
+          <li><a href="foto_galeri.html">Fotoğraf Galerisi</a></li>
+          <li><a href="projeler.html">Projeler</a></li>
+          <li><a href="memnuniyet.html">Memnuniyet</a></li>
+          <li><a href="iletisim.html">İletişim</a></li>
+        </ul>
+      </div>
+    </header>
+    <!-- Menü Bölümü Bitiş -->
+    <section class="hk">
+      <img
+        src="img/kk_bg.png"
+        alt="Sıkça Sorulan Sorular"
+        id="hk_bg"
+        style="display: block; margin: auto"
+      />
+      <h2>Sıkça Sorulan Sorular (SSS)</h2>
+      <p>
+
+        <b>1. İnşaat Firması Nedir ve Ne Tür Hizmetler Sunuyorsunuz?</b><br>
+        İnşaat firmamız, geniş bir yelpazede inşaat hizmetleri sunmaktadır. Bu hizmetler arasında yeni bina inşası, yenileme ve restorasyon projeleri, altyapı çalışmaları, konut inşaatı ve ticari projeler bulunmaktadır. <br><br>
+
+        <b>2. Hangi Tür Projeleri Kabul Ediyorsunuz?</b><br>
+        İnşaat firmamız, ticari ve konut projeleri dahil olmak üzere çeşitli projeleri kabul eder. Her tür projenin özelleştirilmiş çözümler gerektirdiğini biliyoruz ve size en iyi hizmeti sunmak için çalışıyoruz. <br><br>
+
+        <b>3. Hangi Coğrafi Bölgelerde Hizmet Sunuyorsunuz?</b><br>
+        Şu an için Kvak's İnşaat olarak faaliyet gösterdiğimiz bölgeleri kapsamaktayız. Ancak, projenizin yerine göre esneklik gösterebiliriz. Lütfen bize proje ayrıntılarınızı talepler bölümünden gönderin. <br><br>
+
+        <b>4. Projelerinizde Hangi Tür Malzemeleri Kullanıyorsunuz?</b><br>
+          Projelerimizde yüksek kaliteli ve sürdürülebilir malzemeler kullanmaya özen gösteriyoruz. Hangi malzemelerin kullanıldığına projeye ve müşterinin gereksinimlerine bağlı olarak karar veriyoruz.<br><br>
+
+        <b>5. Proje Süreleri ve Maliyetleri Hakkında Nasıl Bilgi Alabilirim?</b><br>
+        Proje süreleri ve maliyetleri, projenin kapsamına ve karmaşıklığına bağlı olarak değişebilir. Detaylı bilgi ve teklif almak için lütfen bizimle iletişime geçin. <br><br>
+
+        <b>6. Sigorta ve Lisanslarınızı Doğrulayabilir miyim?</b><br>
+        Elbette, sigorta ve lisans bilgilerimizi size sunabiliriz. Şirketimiz tüm gerekli lisanslara ve sigortalara sahiptir ve herhangi bir zamanda doğrulamak istediğinizde size bu bilgileri sağlayabiliriz.<br><br>
+
+        <b>7. Nasıl İletişim Kurabilirim?</b><br>
+        Bizimle iletişime geçmek için lütfen "İletişim" bölümümüzde yer alan iletişim bilgilerimizi kullanın. Size hızlı bir yanıt vermeyi taahhüt ediyoruz.
+
+        <br><br><i><b>Kvaks' İnşaat Yönetim Kurulu</b></i>
+      </p>
+    </section>
+
+    <!-- Footer Bölümü Başlangıcı -->
+
+    <div class="footer">
+      <div class="footer-content">
+        <div class="footer-links">
+          <ul>
+            <li><a href="gizlilik.html">Gizlilik Politikası</a></li>
+            <li><a href="sartlar_ve_kosullar.html">Şartlar ve Koşullar</a></li>
+            <li><a href="sss.html">SSS</a></li>
+            <li><a href="vizyon_ve_misyonumuz.html">Vizyon ve Misyonumuz</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-line"></div>
+      <div class="copyright">&copy; 2023 Ömer Kavak. Tüm Hakları Saklıdır.</div>
+    </div>
+
+    <!-- Footer Bölümü Bitişi -->
+
+    <script>
+      function toggleMenu(){
+        var menuToggle = document.querySelector('.toggle');
+        var menu = document.querySelector('.menu');
+        menuToggle.classList.toggle('active');
+        menu.classList.toggle('active');
+      }
+    </script>
+
+  </body>
+</html>
